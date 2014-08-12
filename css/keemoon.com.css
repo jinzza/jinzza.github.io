@@ -31,7 +31,7 @@ p {
   height: auto;
   /* padding: 100px 0; */
   text-align: center;
-  color: #ff1493;
+  color: #fff; /* #ff1493; */
   background: url(https://googledrive.com/host/0By3kHleRNnpxY3dmcUJ5Y09ldlk/intro.jpg) no-repeat bottom center scroll;
   background-color: #AE7E6A;    /* #18BC9C */
   background-size: cover;
@@ -51,11 +51,11 @@ p {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-    color: #fff;
+    color: #111;
 }
 
 .content-section {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .case-section {
@@ -106,10 +106,10 @@ p {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #101010;
     border-radius: 35px;
     font-size: 40px;
-    color: #fff;
+    color: #101010;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
