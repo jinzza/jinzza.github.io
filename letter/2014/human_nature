@@ -1,0 +1,407 @@
+<!doctype html>
+<html>
+  <meta charset="utf-8">
+  <style>
+   body {
+     font-family: "Apple SD Gothic Neo", "맑은고딕", sans-serif;
+     /* background: #aeaeae; */
+     font-size: 16.5px;
+     text-align: center;
+   }
+   
+   #container {
+     padding: 1em;
+     /* max-width: 1152px; */
+     background: #fff;
+     text-align: center;
+     margin: 0 auto;
+     display: block !important;
+   }
+
+   #content {
+     max-width: 1024px;
+     margin: 0 auto;
+     text-align: center;
+   }
+   
+   .sector {
+     padding: 28px 0 28px 0;
+   }
+
+   .wrap {
+     max-width: 100%;
+     margin: 0 auto;
+   }
+
+   .left {
+     /* float:left; */
+     display: inline-block;
+     width: 48.828125%;
+   }
+
+   .right {
+     /* float:right; */
+     display: inline-block;
+     width: 48.828125%;
+     margin-left: 2.34%; /* 2.34375% */
+   }
+
+   p {
+     margin: 0 auto;
+     text-align: justify;
+     text-indent: 1.05em;
+   }
+
+   .fp { /* first paragraph */
+     text-indent: 0;
+   }
+
+   ul {
+     font-size: 13px;
+     padding: 10px 0 10px 0;
+     margin: 0 auto;
+     list-style-type: none;
+   }
+
+   figure {
+     margin: 0 auto;
+   }
+
+   figcaption {
+     font-size: 14px;
+     text-align: center;
+     margin: 0.79%;
+   }
+
+   table {
+     width: 100%;
+     border-spacing: 0.89%;
+     /* border-collapse: collapse; */
+     margin: 0 auto;
+     text-align: center;
+   }
+
+   img {
+     width: 100%;
+     max-width: 1024px;
+   }
+
+   .seasons {
+     max-width: 102.7%;
+     border-spacing: 0.9%;
+   }
+
+   @media(max-width:1074px) {
+     .seasons {
+       margin-left: 0;
+     }
+   }
+
+   @media(max-width:1023px) {
+     .wrap .left {
+       width: 98%;
+     }
+
+     .wrap .right {
+       width: 98%;
+       margin-left: 0;
+     }
+   }
+  </style>
+  <body bgcolor="#aeaeae">
+    <div id="container">
+      <div id="content">
+        <div id="cover" style="padding:20px 0 20px 0;">
+          <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/mailing_cover.jpg" />
+        </div>
+        <table class="sector">
+          <tr>
+            <td>
+              <p class="fp" style="width:70%;margin-left:10%;">
+                어릴 적 시골집에서 장대로 먼 하늘에 걸린 감을 딸 때면 어머니는
+                신나게 휘젓는 내 놀이를 만류하곤 하셨다. 거기 것은 좀
+                놔둬라. 새들도 먹고 살아야 안 하냐. 추운 겨울나기가 얼마나 배고픈
+                일인디.. 어떤 특별한 철학보다도 날짐승의 겨울나기에 대한 어머니의
+                소박한 마음씀과 안쓰러움이, 자연에 대한 따뜻한 나눔과 배려의 그
+                마음이 오늘날 인간과 자연의 문제를 풀 수 있는 열쇠인 것도 같다.
+              </p>
+            </td>
+            <td style="width:48.828125%;">
+              <figure>
+                <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/consideration.jpg" alt="배려" />
+                <figcaption>배려 Consideration, 100×50cm, Oil on Canvas, 2014</figcaption>
+              </figure>
+            </td> 
+          </tr>
+        </table>
+        <div class="wrap sector">
+          <div class="left">
+            <p class="fp">
+              <b>반성문</b><br/><br/>
+              뒤늦게 대학교수가 되었다. 교수가 별 건가 싶었는데, 아니다. 많은 게 다르고 달라지고 있다. 특히 그림과 작업에 대한 관점과 개념, 태도, 방향 등이 많이 달라지고 있다. 나르시스적 주체에서 사회적 주체로의 확장을 요구받는다고나 할까. 예전에는 내 작품에만 빠져 내 것이 최고인줄만 알았다. 술자리에서 타작가에 대한 비판도, 미술판의 실망스러운 현실도 쉽게 쏟아놓곤 했다. 물론 실망스러움은 여전하다. 아니 실망스러움의 두께는 날로 두터워지고 있다. 책임의 부담없이 쏟아놓던 비판은 그러나 조심스러워진다. 그러면 너는? 자신을 돌아볼 재료와 자극들이 넘쳐나고 쉴 새 없이 자기검증이 요구된다. 학생들 작품을 지도하고, 대학원생들 전시서문을 빈번하게 쓰고, 특강준비를 하고, 전시와 답사 관람 교류들이 수시로 이루어지는 등 혼자서 작업할 때와는 다르게 이미 구조적으로 많은 것을 보고 수용하며 점검하고 판단해야 하는 지도적 자리에 놓여 있는 것이다. 혼자서 일기를 쓰듯 작가노트만 남기면 그만이던 때와는 달리 말을 해야 하고 적극적으로 소통을 해야만 하는 자리인 것이다. 학생들은 물론이고 동시대 작가들과도 활발하게 만나 대화하면서 미술의 건강한 방향을 적극적으로 함께 고민하고 그런 문제의식들을 사회적 담론으로까지 이어내야 한다. 막중한 책무의 자리에 위치해서 보니, 교수라는 네임벨류가 요구하는 역할과 수준을 직시하고 보니, 이제야 자신이 좀 제대로 보인다. 시각문화를 오도하는 형편없는 작품들에 대해서는 거침없이 비판도 가해야 하는데 그렇게 자신있게 타 작품을 무시해줄 수 있기에는 나의 표현역량도 아직 부족하다. 열린 대화와 논쟁을 이끌어낼 공론의 능력은 더더욱 부족하다. 학생들에게 했던 말이 고스란히 내게 돌아와 적용된다. 아이디어가 돋보이는 작품으로 한 순간 뜰 수도 있지만 그것만으로는 길고도 고독한 창작의 길을 감당 못한다. 작업의 성실한 이력과 문맥을 갖는 일이 중요하다. 반드시 기본기에 충실한 작업과정의 이력을 포함해라. 이미 도달되고 성취되어 있어야 마땅한 그것들을 위해 민망하지만 나역시 아직도 수련기간을 더 바쳐야만 할 것 같다. 박사학위논문청구전시의 한 서문에 써주었던 문장도 어김없이 내게 돌아와 있다. 그렇다. 겨우 산을 하나 넘었을 뿐이다. 나를 기다리고 있는 더 높은 태산을 넘을 준비와 각오를 다시 시작해야만 하겠다.
+            </p>
+            <p>
+              그러고 보니 첫 개인전 이후 광주에서 서정적인 작품들로 이루어진 개인전으로는 이번이 거의 두 번째인 것도 같다. 그동안 ‘미술과 사회’ 문제를 주제화하면서 캐릭터 작업에 치중하느라 초기작업에서 보여주었던 맑고 서정적인 작품들에는 소홀했는데, 실은 이에 대한 요청도 적지 않았다. 뿐더러 캐릭터작업의 지속적인 매진을 위해서도 얼마간 휴식이 필요한 시점이기도 했다. 이번에 ‘인간과 자연’이라는 테마로 초기작업의 소재들을 불러내면서 나는 새삼스럽게, 화가란 참 행복한 사람이구나 하는 사실을 다시 한 번 확인할 수 있었다. ‘재현회화미술의 현대적 변용이라는 미술적 성취’와 더불어 ‘미술과 사회의 접점을 모색하면서 사유의 유도’까지를 목표로 해오고 있는 나의 캐릭터 작업의 경우. 포부가 너무 원대해서일까, 화면에서의 수행과제 역시 여러가지로 벅찬 데가 있는 것도 사실이다. 메시지의 지시성이 강한 회화미술들이 쉽게 극복하지 못했던 예술적 형식적 승화의 문제에서부터 상당한 인문학적 소양과 통찰까지를 요구하는 작업들로 그건 당연한 일일 것이다. 계속 정진을 바쳐야 할 이유와 의의는 충분하지만 피로감에 잠시 호흡을 가다듬고 싶을 때, 약간의 변화를 갖고 싶을 때, 화가를 구원하는 건 자연인 것도 같다. 작업에서 지칠 때면 화가는 자연을 찾아 근원적인 에너지를 회복한다. 자연은 인위적 구성에서는 결코 얻을 수 없는 보다 근원적이면서도 다양한 색과 형태를, 회화미술의 가장 핵심적 요건인 바로 그 두 가지를 풍부하게 제공해주기 때문이다.
+            </p>
+          </div><div class="right" style="vertical-align:top;">
+            <p>
+              나의 작업의 경우 그동안 여러 단계의 과정을 거쳐왔는데 그러면서도 일관되게 고수한 게 있다면 첫 전시에서도 집중한 바 있듯 ‘이형사신(以形寫神)’의 화론일 것이다. 형상을 깨지 않고서, 오히려 형상으로서 정신을 담아낸다는 낡고 오래된 화론을 주목하고 새롭게 해석하여 수용하게 된 배경에는 현대미술의 난맥상에 대한 반응이 담겨 있었다. 어제의 미술은 오늘의 미술에 의해, 오늘의 미술은 내일의 미술에 의해 붕괴되고 해체된다. 현대미술에 이르러 ‘새로움’은 아예 강박증이 되어 있다. 회화미술에서도 가능한 모든 시도가 이루어졌다. 대상을 뒤집고 왜곡시키고 환치시키는 것은 물론, 찢어발기고 오려붙이는 따위 2차원 평면에서 할 수 있는 모든 실험이 동원되었다. 이러한 미술의 강박증이 우리가 사는 세상의 시각문화를 병들게 하고 있다는 자성이 일어나면서 나는 왜곡되고 훼손된 대상들의 ‘원형’을 그리워하며 오히려 거꾸로 낡은 사실회화로의 복귀를 시작했다. 내 회화의 사실정신은 그렇게 시작되었을 것이다. 서정적 자연주의에서 리얼리즘으로, 현대회화로 계속 변화와 발전을 모색해오면서 내 회화의 중요한 한 목표는 늘 ‘형태 왜곡 없이도 높은 수준의 미학을 충족해내자’였다. 솔직히 예술작품에서 사실 그대로의 형상은 촌스럽고 재미도 없다. 이 구태의 불리함을 극복하기 위해 ‘극사실과 극추상의 만남’을 시도하였고, 캐릭터 작업에선 팝아트의 여러 재료들과 초현실주의를 수용하기도 했다. 앞으로 초현실주의는 더 많은 비중으로 수용되겠지만 이번 전시작품에서는 초현실로 초월하는 것을 가능한 자제하고자 했다.
+            </p>
+            <p>
+              이형사신의 화론 못지않게 내 회화의 전 과정에 일관되게 흐르는 또 하나의 기조는 밝은 색상인 것도 같다. 화가에게는 자신에게 맞는 색이 있는 법이다. 나의 경우는 확실히 밝고 맑은 색조가 호흡에도 잘 맞고 편하다. 내 안 깊숙이에 자리잡고 있는 이 밝은 새 한 마리는 그러나 우리시대 회화예술에서 역시, 유리한 기조가 아니다. ‘인상주의는 형식만 있다’ 는 조롱에서도 알 수 있듯 밝은 색조의 가볍고 경쾌함으로는 깊이있는 회화가 결코 쉽지 않기 때문이다. 그럼에도 인상주의의 찬색과 더운색의 원리는 미술사의 가장 탁월한 성취 중 하나다. 그리고 내 회화작업의 과정속에서, 인상주의의 빛에 반응하는 그 색채 원리를 터득하고 익숙해지는 일만큼 신나는 일도 드물었다. 그러나 세월호, 윤일병의 죽음 앞에서는 역시 밝은 색조의 추구조차 민망하고 죄송하다. 부정현실이 도처에서 승리하고 아예 전면화되어버린 어둡고 무거운 세상인 것이다. 물론 문맥과 관점이 좀 다르긴 하지만 어쨌든, ‘밝은 색을 쓰면서도 깊이가 가능한가’에 대한 문제는 세잔(Paul Cézanne)의 고민이기도 했다. 세잔은 인상파 화가들의 빛을 받아 윤곽이 사라진 어지러운 그림들에 대해 저항하면서 밝음과 더불어 명료성과 깊이까지도 함께 얻고자 했고, 이 둘의 충돌을 해결하는 방안으로 아카데미즘까지는 기꺼이 포기할 수 있었던 화가다. 그의 고뇌와 탐구는 결국 입체파를 열어놓았고, 결국 큐비즘의 하나의 대상에 대한 수많은 관점이 회화미술의 깊이를 높은 수준에서 보강해보였다. 밝은 색을 고수하면서, 게다가 아카데미즘까지 고수하면서, 나는 어떻게 깊이있는 화면을 달성해낼 것인가. 캐릭터작업에서도 약간의 단초를 붙잡긴 했고, 이번 전시작업의 몇 작품에서도 가능성의 실마리를 느끼고는 있지만 아직 나는 답을 찾고 있지 못하다. 내 안 깊숙이에 자리잡고 있는 밝은 새 한 마리는 이 어려운 아포리아를 어떻게 풀어낼 것인지.. 회화미술에 아직 투쟁과제가 남아있다는 사실만으로 그나마 위안을 삼는다.
+            </p>
+          </div>
+        </div>
+        <table class="sector">
+          <tr>
+            <td style="width:50%;vertical-align:top;">
+              <p class="fp" style="width:85%;">
+                <b>전시의 주제‘인간과 자연’에 대하여:</b><br/><br/>
+                신화시대 인간에 있어 미지의 자연은 두려움과 섬김의 대상이었다. 농경사회가 되면서 자연은 인간 삶의 터전이 되었고 자연과 인간은 사이좋은 친구처럼 공존관계를 이루었다. 산업사회로 진입하면서 인간은 자연에게 깡패처럼 굴기 시작했다. 심각한 자연의 보복이 뒤따르자 인간은 자연과의 관계를 재고하기 시작했다. 인간과 자연의 공존의 조건과 대안에 대해 작업을 통해 사유, 통찰하고 그것을 예술적 가상으로 구조화하고 작품으로 구현해보이는 일 본 전시의 목표이겠으나 가까스로 졸작 서너 작품을 간신히 보태놓을 뿐이다. 자연과의 극단적인 관계 악화로 인한 파탄과 위험을 경고하기 위해 자연재해의 참혹상을 비판적으로 접근할 수도 있었지만 이번 작품들에선 네가티브적 방법은 가능한 자제하고 평이하게 평화로운 공존의 염원을 담는 화면구성 쪽을 선택했다. 작업과 작품의 많은 미진함에도 불구하고 한가지 확인한 것은 있다. 인간과 자연의 관계를 성찰하고 재조망함에 있어 다양한 분야의 접근이 있을 수 있겠지만 예술이야말로 근원적이면서도 통합적인 시각을 제공할 수 있으며, 깊은 문제의식과 통찰을 끌어내는데 어떤 분야보다도 유리하고 적합하다는 생각이 그것이다.
+              </p>
+              <p class="fp" style="width:71%;position:relative;margin:6.551059% 24.256410% 0;"> <!-- top:10.551059%;left:10.256410%; -->
+                아무리 춥고 혹독하더라도 겨울은 마침내 지나가고 봄은 이내 다시
+                찾아온다. 자연의 섭리로부터 얻은 이 믿음이 아직 새들과
+                동물들에게선 확고하다. 이 신성한 믿음만큼은 계속되어야 한다.
+              </p>
+            </td>
+            <td style="width:50%;">
+              <figure style="width:80%">
+                <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/faith.jpg" alt="믿음" />
+                <figcaption>믿음 Faith, 72.7×60.6cm, Oil on Canvas, 2014</figcaption>
+              </figure>
+            </td>
+          </tr>
+        </table>
+        <table class="sector seasons">
+          <tr>
+            <td width="25%"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/spring2.jpg" alt="spring" /><figcaption style="font-size:11px;">Spring-梅, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
+            <td width="25%"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/summer2.jpg" alt="summer" /><figcaption style="font-size:11px;">Summer-竹, 125×60cm, Watercolor on Paper, 2014 </figcaption></figure></td>
+            <td width="25%"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/autumn2.jpg" alt="autumn" /><figcaption style="font-size:11px;">Autumn-菊, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
+            <td width="25%"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/winter2.jpg" alt="winter" /><figcaption style="font-size:11px;">Winter-蘭, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
+          </tr>
+        </table>
+        <div class="sector">
+          <figure>
+            <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/listening.jpg" alt="귀기울임" />
+            <figcaption>귀기울임 Listening, 91×116.7cm, Oil on Canvas, 2014</figcaption>
+          </figure>
+          <figure style="width:80%;">
+            <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/listening2.jpg" alt="귀기울임" />
+            <figcaption>귀기울임 Listening, 60.6×72.7cm, Oil on Canvas, 2014</figcaption>
+          </figure>
+        </div>
+        <div class="sector">
+          <figure>
+            <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/nature_hope.jpg" alt="희망의자연" />
+            <figcaption>희망의 자연 Nature of hope, 80.3×100cm, Oil on Canvas, 2014</figcaption>
+          </figure>
+        </div>
+        <table class="sector">
+          <tr>
+            <td style="vertical-align:bottom;">
+              <div style="margin:1% auto;">
+                <figure style="width:70%;">
+                  <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/home.jpg" alt="Home" />
+                  <figcaption>고향 Home, 91×116.7cm, Watercolor on Paper</figcaption>
+                </figure>
+                <div style="padding:10% 0;">
+                </div><p class="fp" style="margin:6% 3% 6% 3%;">
+                  초기 서정적인 작업들에서도 인물 그림은 적지 않았다. 시골노인처럼
+                  자연친화적인 인물들이 대부분이었다. 그들은 자연의 일부처럼
+                  느껴지는 사람들이었다. 최근 『인간과 자연』작업에서는 자연 속에
+                  인물을 앉히되 문명주체로서의 인간이 느껴지는, 노트북을 하는 인물을
+                  상징적으로 선택하고 있다. 자연을 정복하고 훼손해온 문명주체로서의
+                  인간이야말로 심각한 자연재해와 인간소외의 위협 속에서 책임을
+                  느껴야 할 주체이며 다시 자연과 화해를 청해야 하는 대상이기
+                  때문이다.
+                </p>
+            </td>
+            <td style="width:50%;">
+              <figure>
+                <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/moon_below.jpg" alt="송하보월도" />
+                <figcaption>송하보월도 松下步月圖, 53×41cm, Oil on Canvas, 2013</figcaption>
+              </figure>
+            </td>
+          </tr>
+        </table>
+        <div class="sector">
+          <figure>
+            <img alt="tree" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/tree.jpg"/>
+            <figcaption>인간과 자연 Human and nature, 130.3×162cm, Oil on Canvas, 2013</figcaption>
+          </figure>
+        </div>
+        <div class="sector">
+          <figure>
+            <img alt="human_nature" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/human_nature.jpg"/>
+            <figcaption>인간과 자연 Human and nature, 80.3×116.7cm, Oil on Canvas, 2013</figcaption>
+          </figure>
+        </div>
+        <div class="sector">
+          <figure>
+            <img alt="bamboo" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/bamboo.jpg"/>
+            <figcaption>희망 Hope, 67×113cm, Oil on Canvas, 2014</figcaption>
+          </figure>
+          <figure>
+            <img alt="" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/80.jpg"/>
+            <figcaption>죽중한유도 竹中閒遊圖, 112×145.5cm, Watercolor on Paper, 2014</figcaption>
+          </figure>
+        </div>
+        <table class="sector">
+          <tr>
+            <td style="width:50%;">
+              <p class="fp" style="width:47%;;"> <!-- @media only screen and (max-width:960px){width:90%;} -->
+                1년 내내 여름만 혹은 겨울만 있는 열대나 극지방이 아니라 사계가 뚜렷한 나라에서 태어난 것에 감사했던 건 내가 그림을 그리는 사람이어서만은 아닐 것이다. 나고-자라고(성장하고)-성숙하고(열매맺고)-휴식하는, 즉 생장염장(生長斂藏))의 기본적인 인생과 우주의 원리, 그것은 바로 사계 자연이 가장 훌륭한 텍스트였다. 그런 사계가 이제 봄 가을은 짦아지고 여름과 겨울은 살인적인 더위와 추위로 길어지고 있다. 자연과의 관계맺기는 인간의 이기심으로 많이 실패했고 자연의 보복도 시작되었지만 그럼에도 인간들만 태도를 바꾼다면 자연은 평화로운 공존에의 의사가 있는 것 같다. 자연은 계속 우정을 지속하면서 인간과 지구를 지원할 의사가 있어 보인다. 맑은 하늘과 구름, 봄이면 튀어오르는 새순이며, 계절에 따라 풍부하고 아름다운 변화를 보여주는 나무들, 그리고 맑은 물과 바람들이 아직 우리 주변에서 인간들의 성의있는 변화를 인내심을 갖고서 기다려주고 있는 것이다.
+              </p>
+            </td>
+            <td style="width:50%;">
+              <figure style="width:80%;">
+                <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/nocturn.jpg" alt="봄밤" />
+                <figcaption>봄밤 Nocturn, 72.7×60.6cm, Oil on Canvas, 2014</figcaption>
+              </figure>
+            </td> 
+          </tr>
+        </table>
+        <table class="sector seasons">
+          <tr>
+            <td width="25%"><figure><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/spring.jpg" alt="spring" /><figcaption style="font-size:12px;">봄 Spring, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
+            <td width="25%"><figure><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/summer.jpg" alt="summer" /><figcaption style="font-size:12px;">여름 Summer, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
+            <td width="25%"><figure><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/autumn.jpg" alt="autumn" /><figcaption style="font-size:12px;">가을 Autumn, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
+            <td width="25%"><figure><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/winter.jpg" alt="winter" /><figcaption style="font-size:12px;">겨울 Winter, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
+          </tr>
+        </table>
+        <div class="sector">
+          <figure>
+            <img alt="pine" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/pine.jpg"/>
+            <figcaption>겨울 소나무 Winter pine, 130.3×162cm, Oil on Canvas, 2014</figcaption>
+          </figure>
+        </div>
+        <div class="sector">
+          <figure style="width:85%;">
+            <img alt="home_sunshine" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/home_sunshine.jpg"/>
+            <figcaption>고향햇살 Hometown sunshine, 50x65.2cm, Watercolor on Paper, 2014</figcaption>
+          </figure>          
+        </div>
+        <div class="sector">
+          <figure style="width:35%;">
+            <img alt="For a new start" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/bamboo2.jpg"/>
+            <figcaption>For a new start, 53×45.5cm, Watercolor on Paper, 2014</figcaption>
+          </figure>          
+        </div>
+        <table class="sector">
+          <tr>
+            <td width="65%" style="text-align:left">
+              <h4>서기문 약력</h4>
+              <ul>
+                <li><b>주요 수상</b>
+                  <ul>
+                    <li>대동미술상 수상(2010)</li>
+                    <li>동아일보신춘문예 미술평론당선(2001)</li>
+                    <li>한국수채화공모전大賞수상(1997)</li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li><b>개인전 18회 및 최근 주요 전시경력</b>
+                  <ul class="yearlist">
+                    <li><b>2014</b>
+                      <ul>
+                        <li>인간과 자연 - 서기문展(D갤러리, 광주)</li>
+                        <li>서기문展, 정신의 향기(지오갤러리, 서울)</li>
+                        <li>영호남교류전(상록전시관, 광주)</li>
+                        <li>수채화30인展(한국수채화중견원로작가초대전, 거창문화센터)</li>
+                      </ul>
+                    </li>
+                    <li><b>2013</b>
+                      <ul>
+                        <li>현대미술의 가상폐기와 가상의 구제(갤러리고도, 서울) </li>
+                        <li>KOREAN ART SHOW HOUSTON, (George R. Brown Convention Center, NewYork)</li>
+                        <li>ART OSAKA (Hotel Granvia, Osaka)</li>
+                        <li>ART GWANGJU(김대중컨벤션센터, 광주)</li>
+                        <li>風竹展(국립광주박물관)</li>
+                        <li>New Thinking from Impressionism-Gauguin and his friend(표갤러리기획, 서울)</li>
+                        <li>Nostalgia-남도작가12인 특별전(광주시립미술관 상록전시관)</li>
+                      </ul>
+                    </li>
+                    <li><b>2012</b>
+                      <ul>
+                        <li>Hong Kong CONTEMPORARY(The Park Lan, Hong Kong)</li>
+                        <li>Korean Art Show(82 Mercer Street, NewYork)</li>
+                        <li>K-ART(Gallery godo, 서울)</li>
+                        <li>채용신과 한국의 초상미술(전북도립미술관)</li>
+                        <li>2012~2009 KIAF (COEX, 서울)</li>
+                      </ul>
+                    </li>
+                    <li><b>2011</b>
+                      <ul>
+                        <li>SEO KEE MOON 미술과 사회(Gallery godo, 서울)</li>
+                        <li>ART GWANGJU(광주 김대중컨벤션센타)</li>
+                        <li>시화일률전(가나아트, 서울)</li>
+                        <li>국제교류선정작가80인전(광주시립미술관 금남로분관)</li>
+                        <li>2011, 2006, 2000-2002 SEOUL ART FAIR 참가 (예술의 전당, COEX)</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td style="text-align:left;margin:3% 3% 0;vertical-align:top;">
+              <div style="padding:1% 0;text-align:left;">
+                <ul>
+                  <li>전남대학교 예술대학 교수</li>
+                  <li>미학미술사학 박사</li>
+                </ul>
+                <ul>
+                  <li>(500-757) 광주광역시 북구 용봉로 77<br/>전남대학교 예술대학 미술학과</li>
+                  <li>광주시 동구 지원로 32 대아아파트 102-503</li>
+                </ul>
+                <ul>
+                  <li>C.P 010-6604-5195</li>
+                  <li>E-mail <a href="mailto:jinzza01@hanmail.net">jinzza01@hanmail.net</a></li>
+                  <li><a href="http://www.keemoon.com" target="_blank">www.keemoon.com</a></li>
+                </ul>
+              </div>
+              <ul class="yearlist">
+              <li><b>2010</b>
+                <ul>
+                  <li>김대중대통령 서거1주기추모전(한국미술관, 서울)</li>
+                  <li>한.터키전(이스탄불 성아레네박물관, 터키)</li>
+                  <li>춘삼월전(광주시립미술관 상록전시관)</li>
+                  <li>서기문展(자인제노갤러리, 대동갤러리, 서울 광주)</li>
+                  <li>2010~2008 부산국제아트페어(Bexco)</li>
+                </ul>
+              </li>
+              <li><b>2009</b>
+                <ul>
+                  <li>한국 인도 국제허브미술교류전</li>
+                  <li>(Delhi Epicentre Museum, India)</li>
+                  <li>광주&amp;이스탄불 교류展(광주시립미술관)</li>
+                </ul>
+              </li>
+              <li><b>2008</b>
+                <ul>
+                  <li>한일 현대미술작가전(The Korea Culture Center, 오사카)</li>
+                  <li>서기문의 회화미술독서展(전남대학교)</li>
+                </ul>
+              </li>
+              <li><b>2007</b>
+                <ul>
+                  <li>NEWYORK ARTEXPO (Javits Convention Center, 뉴욕)</li>
+                  <li>세계수채화대전(세종문화회관)</li>
+                  <li>미디어아트 & 즐거운 상상展(현대백화점 무역센터점)</li>
+                  <li>2007-2006 한국구상회화의 위상전(예술의 전당)</li>
+                  <li>2006-2008 Korea Philippines Fine Art Festival</li>
+                </ul>
+              </li>
+            </ul>
+          </td>
+          </tr>
+        </table>
+              </div>
+              <footer>
+                This study was financially supported by Chonnam National
+                University, 2013
+              </footer>
+      </div>
+  </body>
+</html>
