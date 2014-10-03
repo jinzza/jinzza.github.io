@@ -1,4 +1,4 @@
- <!-- -*- Mode: Web; -*- -->
+<!-- -*- Mode: Web; -*- -->
 
 <!doctype html>
 <html>
@@ -76,8 +76,8 @@
      }
 
      img {
-       width: 100%;
        max-width: 1024px;
+       width: 100%;
      }
 
      .seasons {
@@ -85,17 +85,22 @@
        border-spacing: 0.9%;
      }
 
-     figure {
+     .image {
+       display: inline-block;
        margin: 0 auto;
      }
 
-     figcaption {
+     .image img, .image span {
+       display: block;
+     }
+
+     .image span {
        font-size: 87.5%; /* 14px */
        text-align: center;
        margin: 0.79%;
      }
 
-     .seasons figcaption {
+     .seasons span {
        font-size: 71.875%;
      }
 
@@ -117,7 +122,7 @@
      }
      
      @media(max-width:994px) {
-       .seasons figcaption {
+       .seasons span {
          font-size: 59.375%;
        }
      }
@@ -142,10 +147,10 @@
               </p>
             </td>
             <td style="width:48.828125%;">
-              <figure>
+              <div class="image">
                 <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/consideration.jpg" alt="배려" />
-                <figcaption>배려 Consideration, 100×50cm, Oil on Canvas, 2014</figcaption>
-              </figure>
+                <span>배려 Consideration, 100×50cm, Oil on Canvas, 2014</span>
+              </div>
             </td> 
           </tr>
         </table>
@@ -181,46 +186,46 @@
               </p>
             </td>
             <td style="width:50%;">
-              <figure style="width:80%">
+              <div class="image" style="width:80%">
                 <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/faith.jpg" alt="믿음" />
-                <figcaption>믿음 Faith, 72.7×60.6cm, Oil on Canvas, 2014</figcaption>
-              </figure>
+                <span>믿음 Faith, 72.7×60.6cm, Oil on Canvas, 2014</span>
+              </div>
             </td>
           </tr>
         </table>
         <table class="sector seasons">
           <tr>
-            <td width="25%"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/spring2.jpg" alt="spring" /><figcaption>Spring-梅, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
-            <td width="25%"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/summer2.jpg" alt="summer" /><figcaption>Summer-竹, 125×60cm, Watercolor on Paper, 2014 </figcaption></figure></td>
-            <td width="25%"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/autumn2.jpg" alt="autumn" /><figcaption>Autumn-菊, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
-            <td width="25%"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/winter2.jpg" alt="winter" /><figcaption>Winter-蘭, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
+            <td width="25%"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/spring2.jpg" alt="spring" /><span>Spring-梅, 125×60cm, Oil on Canvas, 2014</span></div></td>
+            <td width="25%"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/summer2.jpg" alt="summer" /><span>Summer-竹, 125×60cm, Watercolor on Paper, 2014 </span></div></td>
+            <td width="25%"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/autumn2.jpg" alt="autumn" /><span>Autumn-菊, 125×60cm, Oil on Canvas, 2014</span></div></td>
+            <td width="25%"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/winter2.jpg" alt="winter" /><span>Winter-蘭, 125×60cm, Oil on Canvas, 2014</span></div></td>
           </tr>
         </table>
         <div class="sector">
-          <figure>
+          <div class="image">
             <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/listening.jpg" alt="귀기울임" />
-            <figcaption>귀기울임 Listening, 91×116.7cm, Oil on Canvas, 2014</figcaption>
-          </figure>
-          <figure style="width:80%;">
+            <span>귀기울임 Listening, 91×116.7cm, Oil on Canvas, 2014</span>
+          </div>
+          <div class="image" style="width:80%;">
             <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/listening2.jpg" alt="귀기울임" />
-            <figcaption>귀기울임 Listening, 60.6×72.7cm, Oil on Canvas, 2014</figcaption>
-          </figure>
+            <span>귀기울임 Listening, 60.6×72.7cm, Oil on Canvas, 2014</span>
+          </div>
         </div>
         <div class="sector">
-          <figure>
+          <div class="image">
             <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/nature_hope.jpg" alt="희망의자연" />
-            <figcaption>희망의 자연 Nature of hope, 80.3×100cm, Oil on Canvas, 2014</figcaption>
-          </figure>
+            <span>희망의 자연 Nature of hope, 80.3×100cm, Oil on Canvas, 2014</span>
+          </div>
         </div>
         <table class="sector">
           <tr>
             <td style="vertical-align:bottom;">
               <div style="margin:1% auto;">
-                <figure style="width:70%;">
+                <div class="image" style="width:70%;">
                   <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/home.jpg" alt="Home" />
-                  <figcaption>고향 Home, 91×116.7cm, Watercolor on Paper</figcaption>
-                </figure>
-                <div style="padding:10% 0;">
+                  <span>고향 Home, 91×116.7cm, Watercolor on Paper</span>
+                </div>
+                <div style="padding:7cm% 0;">
                 </div><p class="fp" style="margin:6% 3% 6% 3%;">
                   초기 서정적인 작업들에서도 인물 그림은 적지 않았다. 시골노인처럼
                   자연친화적인 인물들이 대부분이었다. 그들은 자연의 일부처럼
@@ -233,34 +238,34 @@
                 </p>
             </td>
             <td style="width:50%;">
-              <figure>
+              <div class="image">
                 <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/moon_below.jpg" alt="송하보월도" />
-                <figcaption>송하보월도 松下步月圖, 53×41cm, Oil on Canvas, 2013</figcaption>
-              </figure>
+                <span>송하보월도 松下步月圖, 53×41cm, Oil on Canvas, 2013</span>
+              </div>
             </td>
           </tr>
         </table>
         <div class="sector">
-          <figure>
+          <div class="image">
             <img alt="tree" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/tree.jpg"/>
-            <figcaption>인간과 자연 Human and nature, 130.3×162cm, Oil on Canvas, 2013</figcaption>
-          </figure>
+            <span>인간과 자연 Human and nature, 130.3×162cm, Oil on Canvas, 2013</span>
+          </div>
         </div>
         <div class="sector">
-          <figure>
+          <div class="image">
             <img alt="human_nature" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/human_nature.jpg"/>
-            <figcaption>인간과 자연 Human and nature, 80.3×116.7cm, Oil on Canvas, 2013</figcaption>
-          </figure>
+            <span>인간과 자연 Human and nature, 80.3×116.7cm, Oil on Canvas, 2013</span>
+          </div>
         </div>
         <div class="sector">
-          <figure>
+          <div class="image">
             <img alt="bamboo" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/bamboo.jpg"/>
-            <figcaption>희망 Hope, 67×113cm, Oil on Canvas, 2014</figcaption>
-          </figure>
-          <figure>
+            <span>희망 Hope, 67×113cm, Oil on Canvas, 2014</span>
+          </div>
+          <div class="image">
             <img alt="" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/80.jpg"/>
-            <figcaption>죽중한유도 竹中閒遊圖, 112×145.5cm, Watercolor on Paper, 2014</figcaption>
-          </figure>
+            <span>죽중한유도 竹中閒遊圖, 112×145.5cm, Watercolor on Paper, 2014</span>
+          </div>
         </div>
         <table class="sector">
           <tr>
@@ -270,38 +275,38 @@
               </p>
             </td>
             <td style="width:50%;">
-              <figure style="width:80%;">
+              <div class="image" style="width:80%;">
                 <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/nocturn.jpg" alt="봄밤" />
-                <figcaption>봄밤 Nocturn, 72.7×60.6cm, Oil on Canvas, 2014</figcaption>
-              </figure>
+                <span>봄밤 Nocturn, 72.7×60.6cm, Oil on Canvas, 2014</span>
+              </div>
             </td> 
           </tr>
         </table>
         <table class="sector seasons">
           <tr>
-            <td width="25%"><figure><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/spring.jpg" alt="spring" /><figcaption>봄 Spring, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
-            <td width="25%"><figure><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/summer.jpg" alt="summer" /><figcaption>여름 Summer, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
-            <td width="25%"><figure><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/autumn.jpg" alt="autumn" /><figcaption>가을 Autumn, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
-            <td width="25%"><figure><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/winter.jpg" alt="winter" /><figcaption>겨울 Winter, 125×60cm, Oil on Canvas, 2014</figcaption></figure></td>
+            <td width="25%"><div class="image"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/spring.jpg" alt="spring" /><span>봄 Spring, 125×60cm, Oil on Canvas, 2014</span></div></td>
+            <td width="25%"><div class="image"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/summer.jpg" alt="summer" /><span>여름 Summer, 125×60cm, Oil on Canvas, 2014</span></div></td>
+            <td width="25%"><div class="image"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/autumn.jpg" alt="autumn" /><span>가을 Autumn, 125×60cm, Oil on Canvas, 2014</span></div></td>
+            <td width="25%"><div class="image"><img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/winter.jpg" alt="winter" /><span>겨울 Winter, 125×60cm, Oil on Canvas, 2014</span></div></td>
           </tr>
         </table>
         <div class="sector">
-          <figure>
+          <div class="image">
             <img alt="pine" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/pine.jpg"/>
-            <figcaption>겨울 소나무 Winter pine, 130.3×162cm, Oil on Canvas, 2014</figcaption>
-          </figure>
+            <span>겨울 소나무 Winter pine, 130.3×162cm, Oil on Canvas, 2014</span>
+          </div>
         </div>
         <div class="sector">
-          <figure style="width:85%;">
+          <div class="image" style="width:85%;">
             <img alt="home_sunshine" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/home_sunshine.jpg"/>
-            <figcaption>고향햇살 Hometown sunshine, 50x65.2cm, Watercolor on Paper, 2014</figcaption>
-          </figure>          
+            <span>고향햇살 Hometown sunshine, 50x65.2cm, Watercolor on Paper, 2014</span>
+          </div>          
         </div>
         <div class="sector">
-          <figure style="width:35%;">
+          <div class="image" style="width:35%;">
             <img alt="For a new start" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/bamboo2.jpg"/>
-            <figcaption>For a new start, 53×45.5cm, Watercolor on Paper, 2014</figcaption>
-          </figure>          
+            <span>For a new start, 53×45.5cm, Watercolor on Paper, 2014</span>
+          </div>          
         </div>
         <table class="sector">
           <tr>
