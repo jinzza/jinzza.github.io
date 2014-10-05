@@ -8,6 +8,7 @@
     <meta property="og:locale" content="ko_KR" />
     <meta property="og:image" content="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/og_cover.jpg"/>
     <meta property="fb:app_id" content="751369498232704"/>
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
     <style>
      @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
      ::-moz-selection {
@@ -232,11 +233,11 @@
         </table>
         <div class="sector">
           <div class="image" style="width:86%;">
-            <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/listening.jpg" alt="귀기울임" />
+            <img alt="귀기울임" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/listening.jpg"/>
             <span>귀기울임 Listening, 91×116.7cm, Oil on Canvas, 2014</span>
           </div>
           <div class="image" style="width:75%;">
-            <img src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/listening2.alt" jpg="귀기울임" />
+            <img alt="귀기울임" src="https://googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/listening2.jpg"/>
             <span>귀기울임 Listening, 60.6×72.7cm, Oil on Canvas, 2014</span>
           </div>
         </div>
@@ -385,14 +386,13 @@
       </div>
     </div>
     <div id="fb-root"></div>
-    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
     <script>
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
        (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
                               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
      ga('create','UA-18795398-3','auto');
-     ga('require', 'linkid', 'linkid.js');
+     ga('require','linkid','linkid.js');
      ga('send','pageview');
      
      (function(d, s, id) {
@@ -400,15 +400,13 @@
        if (d.getElementById(id)) return;
        js = d.createElement(s); js.id = id;
        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=751369498232704&version=v2.0";
-       fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
 
      Kakao.init('7b3cfbb2122e0f0e418d3460a8904c73');
      Kakao.Link.createTalkLinkButton({
        container: '#kakao-link-btn',
-       label: '인간과 자연 - 서기문展
-10.9 - 10.15
-갤러리D (062-222-8011)
-오프닝: 10.10(금) 오후 6시',
+       label: '인간과 자연 - 서기문展\n10.9 - 10.15 갤러리D\n(062-222-8011)\n오프닝: 10.10(금) 오후 6시',
        image: {
          src: 'https://371290baa6362750d7a74b66aa39c32258156204.googledrive.com/host/0B6cmKrdxwCk9T3F2bjJ3c1BOVG8/2014_hn/img/kakaolink.jpg',
          width: '400',
