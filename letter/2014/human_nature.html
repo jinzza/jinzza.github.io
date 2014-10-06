@@ -23,8 +23,9 @@
      
      body {
        font-family: 'Apple SD Gothic Neo','맑은고딕','Nanum Gothic',sans-serif;
-       background: #aeaeae;
+       /* background-color: #aeaeae; */
        text-align: center;
+       margin: 0 auto;
      }
 
      #container {
@@ -100,6 +101,11 @@
        width: 49.49%;
      }
 
+     .seasons .image span {
+       font-size: 87.5%;
+       margin: 4px 0 0 0;
+     }
+
      @media only screen and (max-width:449px){
        .seasons .image {
          width: 49%;
@@ -114,6 +120,9 @@
        }
        .seasons .image {
          width: 24% !important;
+       }
+       .seasons .image span {
+         font-size: 71.875%;
        }
      }
 
@@ -130,11 +139,6 @@
        font-size: 87.5%; /* 14px */
        text-align: center;
        margin: 0.79%;
-     }
-
-     .seasons .image span {
-       font-size: 71.875%;
-       margin: 4px 0 0 0;
      }
 
      .social-media {
