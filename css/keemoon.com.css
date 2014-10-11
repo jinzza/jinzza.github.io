@@ -33,8 +33,9 @@ p {
   display: table;
   width: 100%;
   height: auto;
-  padding: 180px 0;
+  padding: 100px 0;
   text-align: center;
+  vertical-align: middle;
   color: #fff; /* #ff1493; */
   background: url(https://googledrive.com/host/0By3kHleRNnpxY3dmcUJ5Y09ldlk/bamboo.jpg) no-repeat bottom center scroll;
   background-color: #55734f;    /* #d74e34 #18bc9c #ae7e6a */
@@ -108,7 +109,7 @@ p {
   /* position: absolute; */
   width: 70px;
   height: 70px;
-  margin-top: 50px;
+  margin: 50px 0 80px;
   padding: 7px 16px;
   border: 3px solid #3e9948;
   border-radius: 35px;
