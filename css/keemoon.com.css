@@ -33,9 +33,10 @@ p {
 
 .intro {
   display: table;
+  margin: 0 auto;
   width: 100%;
   height: auto;
-  padding: 100px 0;
+  padding: 5% 0;
   text-align: center;
   vertical-align: middle;
   color: #fff; /* #ff1493; */
@@ -45,6 +46,12 @@ p {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
+
+@media (min-width: 767px) {
+  .intro {
+    height: 100%;
+  }
 }
 
 .intro .intro-body {
@@ -63,7 +70,35 @@ p {
 
 .intro .intro-body .brand-heading {
   font-family: 'Nanum Brush Script', serif; /* Hanna */
-  font-size: 45px;
+  font-size: 66px; /* font-size: 4vw; */
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+   .intro .intro-body .brand-heading {
+      font-size: 66px; font-size: 4vw;
+   }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+   .intro .intro-body .brand-heading {
+      font-size: 48px;
+   }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+   .intro .intro-body .brand-heading {
+      font-size: 48px;
+   }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+   .intro .intro-body .brand-heading {
+      font-size: 48px;
+   }
 }
 
 .intro .intro-body .intro-text {
@@ -80,22 +115,15 @@ p {
   background-color: #fff;
 }
 
-@media(min-width:767px) {
-  .intro {
-    height: 100%;
-    padding: 0;
-  }
+/* iPhone 5 & 5S */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { /* STYLES GO HERE */ }
 
-  /* 
-   * .intro .intro-body .brand-heading {
-   *   font-size: 56px;
-   * }
-   */
-
-  .intro .intro-body .intro-text {
-    font-size: 25px;
-  }
-}
+/* iPhone 6 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { /* STYLES GO HERE */}
 
 .btn {
   text-transform: uppercase;
