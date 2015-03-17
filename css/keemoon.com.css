@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+
 body {
   width: 100%;
   height: 100%;
@@ -50,8 +52,18 @@ p {
   vertical-align: middle;
 }
 
+.intro .intro-body .logo-heading {
+  width: 100%;
+  height: 44px;
+  padding: 10px 0;
+  margin: 0 auto;
+  background: url(/logo0.svg) no-repeat scroll 50% 0%;
+  background-size: contain;
+}
+
 .intro .intro-body .brand-heading {
-  font-size: 72px;
+  font-family: 'Nanum Brush Script', serif; /* Hanna */
+  font-size: 45px;
 }
 
 .intro .intro-body .intro-text {
@@ -74,9 +86,11 @@ p {
     padding: 0;
   }
 
-  .intro .intro-body .brand-heading {
-    font-size: 72px;
-  }
+  /* 
+   * .intro .intro-body .brand-heading {
+   *   font-size: 56px;
+   * }
+   */
 
   .intro .intro-body .intro-text {
     font-size: 25px;
@@ -179,12 +193,13 @@ p {
   }
 }
 
-footer {
-  background-color: #eaeaea;
-  padding: 45px 0;
+#copyright {
+  background-color: #efefef;
+  padding: 30px 0;
+  box-sizing: none;
 }
 
-footer p {
+#copyright p {
   margin: 0 auto;
   color: #000;
 }
