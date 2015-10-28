@@ -1,0 +1,81 @@
+[{:exhibition/title "Art Gwangju 15" :exhibition/place "김대중컨벤션센터" :exhibition/year "2015"}
+ {:exhibition/title "국립광주박물관 특별전-남도문화전" :exhibition/place "국립광주박물관" :exhibition/year "2015"}
+ {:exhibition/title "SOAF" :exhibition/place "COEX" :exhibition/year "2015"}
+ {:exhibition/title "화랑미술제" :exhibition/place "COEX" :exhibition/year "2015"}
+ {:exhibition/title "ART BUSAN" :exhibition/place "BEXCO" :exhibition/year "2015"}
+ {:exhibition/title "광주국제현대미술제" :exhibition/place "광주비엔날레관" :exhibition/year "2015"}
+ {:exhibition/title "삶과 예술 그리고 동행, 신경호 정인수교수 정년기념전" :exhibition/place "금호갤러리" :exhibition/year "2015"}
+ {:exhibition/title "서기문-이상렬 2인展" :exhibition/place "갤러리숲" :exhibition/year "2015"}
+ {:exhibition/title "LWAF 국제작은작품제" :exhibition/place "천진, 북경, 한국미술관, etc." :exhibition/year ["2007" "2008" "2009" "2010" "2011" "2012" "2013" "2014" "2015"]}
+ {:exhibition/title "인간과 자연 - 서기문展" :exhibition/place "D갤러리, 광주" :exhibition/year "2014"}
+ {:exhibition/title "서기문展, 정신의 향기" :exhibition/place "지오갤러리, 서울" :exhibition/year "2014"}
+ {:exhibition/title "영호남교류전" :exhibition/place "상록전시관, 광주" :exhibition/year "2014"}
+ {:exhibition/title "수채화30인展" :exhibition/place "한국수채화중견원로작가초대전, 거창문화센터" :exhibition/year "2014"}
+ {:exhibition/title "어등미술제" :exhibition/place "광산문화센터" :exhibition/year "2014"}
+ {:exhibition/title "한국수채화협회전" :exhibition/place "한국미술관" :exhibition/year "2014"}
+ {:exhibition/title "대한민국수채화작가협회전" :exhibition/place "서울시립미술관 경희궁미술관" :exhibition/year "2014"}
+ {:exhibition/title "현대미술의 가상폐기와 가상의 구제" :exhibition/place "갤러리고도, 서울" :exhibition/year "2013"}
+ {:exhibition/title "KOREAN ART SHOW HOUSTON" :exhibition/place "George R. Brown Convention Center, NewYork" :exhibition/year "2013"}
+ {:exhibition/title "ART OSAKA" :exhibition/place "Hotel Granvia, Osaka" :exhibition/year "2013"}
+ {:exhibition/title "ART GWANGJU" :exhibition/place "김대중컨벤션센터, 광주" :exhibition/year "2013"}
+ {:exhibition/title "風竹展" :exhibition/place "국립광주박물관" :exhibition/year "2013"}
+ {:exhibition/title "New Thinking from Impressionism - Gauguin and his friend" :exhibition/place "표갤러리기획, 서울" :exhibition/year "2013"}
+ {:exhibition/title "Nostalgia-남도작가12인 특별전" :exhibition/place "광주시립미술관 상록전시관" :exhibition/year "2013"}
+ {:exhibition/title "몽골국립소이스문화예술대학교-전남대학교 교류전" :exhibition/place "몽골소이스문화예술대학교" :exhibition/year "2013"}
+ {:exhibition/title "Hong Kong CONTEMPORARY" :exhibition/place "The Park Lan, Hong Kong" :exhibition/year "2013"}
+ {:exhibition/title "Korean Art Show" :exhibition/place "82 Mercer Street, NewYork" :exhibition/year "2013"}
+ {:exhibition/title "K-ART" :exhibition/place "Gallery godo, 서울" :exhibition/year "2013"}
+ {:exhibition/title "채용신과 한국의 초상미술" :exhibition/place "전북도립미술관" :exhibition/year "2013"}
+ {:exhibition/title "대동갤러리수상작가전" :exhibition/place "대동갤러리" :exhibition/year "2013"}
+ {:exhibition/title "전남대학교개교60주년기념 총동문전-비상" :exhibition/place "금호갤러리" :exhibition/year "2013"}
+ {:exhibition/title "광주MBC초대전- 한국현대미술 현황과 전망" :exhibition/place "광주문화예술회관" :exhibition/year "2013"}
+ {:exhibition/title "KIAF" :exhibition/place "COEX" :exhibition/year ["2012" "2011" "2010" "2009"]}
+ {:exhibition/title "SEO KEE MOON 미술과 사회" :exhibition/place "Gallery godo, 서울" :exhibition/year "2011"}
+ {:exhibition/title "ART GWANGJU" :exhibition/place "광주 김대중컨벤션센터" :exhibition/year "2011"}
+ {:exhibition/title "SEOUL ART FAIR" :exhibition/place "COEX" :exhibition/year ["2000" "2001" "2002" "2006" "2011"]}
+ {:exhibition/title "시화일률전" :exhibition/place "가나아트, 서울" :exhibition/year "2011"}
+ {:exhibition/title "국제교류선정작가80인전" :exhibition/place "광주시립미술관 금남로분관" :exhibition/year "2011"}
+ {:exhibition/title "조형21" :exhibition/place "금호갤러리" :exhibition/year "2011"}
+ {:exhibition/title "남부칼라페스티벌" :exhibition/place "무등갤러리" :exhibition/year "2011"}
+ {:exhibition/title "롯데아트페어" :exhibition/place "광주롯데갤러리" :exhibition/year "2011"}
+ {:exhibition/title "행복나눔아트페어" :exhibition/place "광주신세계갤러리" :exhibition/year "2011"}
+ {:exhibition/title "김대중대통령 서거1주기추모전" :exhibition/place "한국미술관, 서울" :exhibition/year "2010"}
+ {:exhibition/title "한.터키전" :exhibition/place "이스탄불 성아레네박물관, 터키" :exhibition/year "2010"}
+ {:exhibition/title "대동미술상수상작가전" :exhibition/place "대동갤러리, 광주" :exhibition/year "2010"}
+ {:exhibition/title "춘삼월전" :exhibition/place "광주시립미술관 상록전시관" :exhibition/year "2010"}
+ {:exhibition/title "서기문展" :exhibition/place "자인제노갤러리, 대동갤러리, 서울 광주" :exhibition/year "2010"}
+ {:exhibition/title "2010~2008 부산국제아트페어" :exhibition/place "Bexco" :exhibition/year "2010"}
+
+ {:exhibition/title "한국 인도 국제허브미술교류전" :exhibition/place "Delhi Epicentre Museum, India" :exhibition/year "2009"}
+ {:exhibition/title "광주&이스탄불 교류展" :exhibition/place "광주시립미술관" :exhibition/year "2009"}
+ {:exhibition/title "서기문의 회화미술독서展" :exhibition/place "전남대학교" :exhibition/year "2009"}
+ {:exhibition/title "대한민국 현대미술 르네상스초대전" :exhibition/place "안산단원미술관" :exhibition/year "2009"}
+ {:exhibition/title "탐매전" :exhibition/place "국립광주박물관" :exhibition/year "2009"}
+ {:exhibition/title "한국회화의 위상전" :exhibition/place "2.24-3.2 서울미술관" :exhibition/year "2009"}
+ {:exhibition/title "한국정예작가초대전" :exhibition/place "서울아트센터" :exhibition/year "2009"}
+ {:exhibition/title "광주MBC기획- 무등산 청년선언전" :exhibition/place "갤러리D" :exhibition/year "2009"}
+
+ {:exhibition/title "한일 현대미술작가전" :exhibition/place "The Korea Culture Center, 오사카" :exhibition/year "2008"}
+ {:exhibition/title "서기문의 회화미술독서展" :exhibition/place "전남대학교" :exhibition/year "2008"}
+ {:exhibition/title "Korea Philippines Fine Art Festival" :exhibition/place "GSIS, 필리핀" :exhibition/year "2008"}
+ {:exhibition/title "광주미술의 현황과 전망전" :exhibition/place "서울인사아트센터" :exhibition/year "2008"}
+ {:exhibition/title "광주시립미술관초대- 南道所見展" :exhibition/place "갤러리라이트, 서울" :exhibition/year "2008"}
+
+ {:exhibition/title "NEWYORK ARTEXPO" :exhibition/place "Javits Convention Center, 뉴욕" :exhibition/year "2007"}
+ {:exhibition/title "세계수채화대전" :exhibition/place "세종문화회관" :exhibition/year "2007"}
+ {:exhibition/title "미디어아트 & 즐거운 상상展" :exhibition/place "현대백화점 무역센터점" :exhibition/year "2007"}
+ {:exhibition/title "한국구상회화의 위상전" :exhibition/place "예술의 전당" :exhibition/year ["2007" "2006"]}
+ {:exhibition/title "Korea Philippines Fine Art Festival" :exhibition/place "National Museum of the Philippines" :exhibition/year ["2006" "2007" "2008"]}]
+
+;; 전남대학교 미술학과 교수. 미학미술사학 박사.
+
+;; 주요 수상
+;; 대동미술상 수상(2010)
+;; 동아일보신춘문예 미술평론당선(2001)
+;; 한국수채화공모전大賞수상(1997)
+
+;; 개인전  18회
+
+;; 최근 주요 전시경력
+
+;; (500-757) 광주광역시 북구 용봉로 77 전남대학교 예술대학 미술학과
