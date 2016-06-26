@@ -5,7 +5,7 @@ var WebFontConfig = {
     },
     custom: {
         families: ['Nanum Pen Script'],
-        urls: ['http://fonts.googleapis.com/earlyaccess/nanumpenscript.css']
+        urls: ['//fonts.googleapis.com/earlyaccess/nanumpenscript.css']
     }
 };
 (function() {
